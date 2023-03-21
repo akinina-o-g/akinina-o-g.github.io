@@ -1,0 +1,19 @@
+﻿
+<!DOCTYPE html>
+   
+         <html>
+          <head> 
+         <script src="../aframe/aframe.min.js"></script>
+           <script src="../ar/aframe-ar.js"></script>
+         <head>
+       <body>
+        <a-scene embedded arjs>
+        <a-marker preset="hiro">
+           <a-box color="blue"></a-box>
+        </a-marker>
+        <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html> 
+
+ 
