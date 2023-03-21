@@ -1,5 +1,6 @@
 ﻿
-<!DOCTYPE html>
+
+         <!DOCTYPE html>
    
          <html>
           <head> 
@@ -9,7 +10,19 @@
        <body>
         <a-scene embedded arjs>
         <a-marker preset="hiro">
-           <a-box color="blue"></a-box>
+<a-torus position="1 0.5 0" color="green" radius="0.5"
+animation="property: components.material.material.color; type: color; from: green; to: red; loop: true; dur: 10000"> </a-torus>
+<a-plane width="3.5" height="3.5" rotation="-55 0 0"
+ position="0 -1 0" color="purple" src= 
+src="https://raw.githubusercontent.com/aframevr/sampleassets/master/assets/images/illustration/758pxCanestra_di_frutta_(Caravaggio).jpg" 
+></a-plane>
+<a-cylinder color="yellow" height="2" radius="0.05" position="0 0 0"></a-cylinder> 
+<a-cylinder color="blue" height="2" radius="0.05" position="1 0 0"></a-cylinder> 
+<a-torus-knot color="orange" radius="0.5"
+ position="1 0.5 0" animation="property: rotation; to: 0 0 360; loop: true; dur: 10000">></a-torus-knot>
+<a-plane width="2.5" height="1.5" position="0 1 --1"></a-plane>
+<a-text  font="arial-msdf.json" negate="false" value=" Вітаю у браузері VR!" color="black"
+ width="10" position="-0.5 1 -6" ></a-text>
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
