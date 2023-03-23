@@ -16,7 +16,7 @@ AFRAME.registerComponent('hello-world', {
 </script>
 </head>
 <body>
- <a-scene embedded arjs ="debug: false;">
+ <a-scene embedded arjs ="debug: true;">
 <a-marker preset="hiro">
 <a-entity scale="0.2 0.2 0.2" rotation="-90 0 0">
  <!- - <a-sky color="grey"></a-sky>- ->
@@ -51,11 +51,11 @@ rotation="-55 0 0" position="-2 -2 -5" color="purple"></a-plane>
 material = "color: white; shader: flat; scr: ../HIRO.jpg"
 position= "0 0 -1" ></a-entity>
 </a-marker>
-<a-marker  type='pattern' url='../assets/pattern-pi_v3.patt'>
-<a-box color= "green"></a-box>
+<a-marker  type='pattern' url='../assets/pattern-pi'>
+<a-box></a-box>
 </a-marker>
 <a-entity camera></a-entity>
-<a-entity hello-world></a-entity>
+<a-entity></a-entity>
  </a-scene>
 
                 </body>
