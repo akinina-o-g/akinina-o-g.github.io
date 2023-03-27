@@ -6,8 +6,8 @@
 
 <body>
 <a-scene>
-<a-sky color="black" radius=1500></a-sky>
-<a-camera position="0 0 600" cursor-visible="true" cursor-scale="2" cursor-color="#0095DD" cursor-opacity="0.5"></a-camera>
+<a-sky color="black" radius=5000></a-sky>
+<a-camera position="0 0 1500" cursor-visible="true" cursor-scale="2" cursor-color="#0095DD" cursor-opacity="0.5"></a-camera>
  <a-entity geometry="primitive: sphere; radius: 20.510" material="src: 2k_sun.jpg" animation="property: rotation; to: 0 360 0; loop;  true; dur: 9000" 
 planet="dist: 0; mass: 1.989e30; name:
 Sun"></a-entity>
@@ -39,8 +39,18 @@ name: Jupiter"></a-entity>
 
 <a-entity geometry="primitive: sphere; radius: 58.232"
 material="src: 2k_saturn.jpg" animation="property: rotation; to: 0 360 0; loop;  true; dur: 9000"
-planet="dist:881.939e9; mass: 4.68e26; T:107.592;
+planet="dist: 1433.53e9; mass: 5.6846e26; T: 10759;
 name: Saturn"></a-entity>
+
+<a-entity geometry="primitive: sphere; radius: 25.362"
+material="src: 2k_uranus.jpg" animation="property: rotation; to: 0 360 0; loop;  true; dur: 9000"
+planet="dist: 2870.972e9; mass: 8.6813e25; T: 30685;
+name: Uranus"></a-entity>
+
+<a-entity geometry="primitive: sphere; radius: 24.622"
+material="src: 2k_neptune.jpg" animation="property: rotation; to: 0 360 0; loop;  true; dur: 9000"
+planet="dist: 4500e9; mass: 1.0243e26; T: 60190;
+name: Neptune"></a-entity>
 <a-entity main></a-entity>
 </a-scene>
 </body>
