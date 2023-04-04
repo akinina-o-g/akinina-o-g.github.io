@@ -26,7 +26,7 @@ this.p3 = new THREE.Vector3();
 this.p4 = new THREE.Vector3();
  let material = new THREE.MeshLambertMaterial(
 {color:0xFF0000});
-let geometry=new THREE.CylinderGeometry( 0.05, 0.05, 1, 12);
+let geometry=new THREE.CylinderGeometry( 0.05, 0.05, 1,12);
  geometry.applyMatrix4( new THREE.Matrix4().makeTranslation(
 0, 0.5, 0 ) );
  geometry.applyMatrix4( new THREE.Matrix4().makeRotationX(
