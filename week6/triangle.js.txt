@@ -30,7 +30,7 @@ let geometry=new THREE.CylinderGeometry( 0.05, 0.05, 1,12);
  geometry.applyMatrix4( new THREE.Matrix4().makeTranslation(
 0, 0.5, 0 ) );
  geometry.applyMatrix4( new THREE.Matrix4().makeRotationX(
-THREE.Math.degToRad( 90 ) ) );
+THREE.MathUtils.degToRad( 90 ) ) );
 
  this.cylinderAB = new THREE.Mesh( geometry, material );
  this.lineAB = document.querySelector('#lineAB').object3D;
