@@ -61,4 +61,4 @@ cube.rotation.y +=0.01;
 
 
 angle += Math.PI/180;
-animate();
+animate( );
