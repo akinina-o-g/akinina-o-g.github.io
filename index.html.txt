@@ -16,6 +16,7 @@
                      <p><a href="week6/ARindex6.html"> Домашнє завдання 6 тижня <a/>
                        <p><a href="week7/threejs_first.html"> Домашнє завдання 7 тижня <a/>
                    <p><a href="week8/week8.html"> Домашнє завдання 8 тижня <a/>
+                            <p><a href="week9/threejs_second.html"> Домашнє завдання 9 тижня <a/>
 
             </body>
  </html>
