@@ -1,23 +1,24 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<title>AR.js A-Frame Location-based</title>
-<script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
-<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
-<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
-</head>
-<body>
-<a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true;  renderer="antialias: true; alpha: true">
-    <a-camera gps-new-camera="gpsMinDistance: 5"></a-camera>
-    <a-box color= "red" gps-new-entity-place="latitude: 48.49183660062722; longitude: 35.94048850740899" scale="10 10 10"></a-box>
-<a-box color= "green" gps-new-entity-place="latitude: 48.491988397465455; longitude: 35.94068323412719" scale="10 10 10"></a-box>
-
-
-<a-sphere color= "blue" gps-new-entity-place="latitude: 48.49183223444647; longitude: 35.94101355404803" scale="5 5 5"></a-sphere>
-
-<a-sphere color= "red" gps-new-entity-place="latitude: 48.49184120296815; longitude: 35.94108572876416" scale="5 5 5"></a-sphere>
-
-
-</a-scene>
-</body>
+	<head>
+		<title>AR.js A-Frame Location-based</title>
+		<script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+		<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+		<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+	</head>
+	<body>
+		<a-scene vr-mode-ui="enabled: false" arjs="sourceType: webcam; videoTexture: true" renderer="antialias: true; alpha: true">
+		    <a-camera gps-new-camera="gpsMinDistance: 50"></a-camera>
+		    <a-box color="red" gps-new-entity-place="latitude: 48.49183660062722; longitude: 35.94048850740899" scale="10 10 10"></a-box><!-- преса -->
+		    <a-box color="green" gps-new-entity-place="latitude: 48.491988397465455; longitude: 35.94068323412719" scale="10 10 10"></a-box><!-- край будівлі з аптекою -->
+		    <a-sphere color="blue" gps-new-entity-place="latitude: 48.49183223444647; longitude: 35.94101355404803" scale="5 5 5"></a-sphere><!-- усередині будівлі 1 -->
+		    <a-sphere color="yellow" gps-new-entity-place="latitude: 48.49184120296815; longitude: 35.94108572876416" scale="5 5 5"></a-sphere><!-- усередині будівлі 2 -->
+		</a-scene>
+	</body>
 </html>
+
+
+
+
+   
