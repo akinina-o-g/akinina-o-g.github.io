@@ -14,10 +14,11 @@
                            <p><a href="week4/ARindex.html"> Домашнє завдання 4 тижня <a/>
                            <p><a href="week5/SunSystem.html"> Домашнє завдання 5 тижня <a/>
                            <p><a href="week6/ARindex6.html"> Домашнє завдання 6 тижня <a/>
-                           <p><a href="week7/threejs_first.html"> Домашнє завдання 7 тижня <a/>
+                           <p><a href="week7/dzweek7.html"> Домашнє завдання 7 тижня <a/>
                            <p><a href="week8/week8.html"> Домашнє завдання 8 тижня <a/>
-                           <p><a href="week9/threejs_second.html"> Домашнє завдання 9 тижня <a/>
+                           <p><a href="week9/dzweek9.html"> Домашнє завдання 9 тижня <a/>
                           <p><a href="week10/controls.html"> Домашнє завдання 10 тижня <a/>
-                           <p><a href="week11/geo.html"> Домашнє завдання 11 тижня <a/>
+                                   <p><a href="week11/geo.html"> Домашнє завдання 11 тижня <a/>
+                               <p><a href="week12/tm_exp1.html"> Домашнє завдання 12 тижня <a/>
             </body>
  </html>
