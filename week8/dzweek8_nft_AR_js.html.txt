@@ -8,8 +8,8 @@
 		    renderer="logarithmicDepthBuffer: true;"
 		    embedded arjs="trackingMethod: best;">
 
-      <a-nft type="nft" url="week8/internet">
-	        <a-entity geometry="primitive: icosahedron" src="internet.png" radius =100></a-entity>
+      <a-nft type="nft" url="TNHm-22/exp/kr_image">
+	        <a-entity geometry="primitive: icosahedron" src="KryvyiRih.png" radius =0.2></a-entity>
       </a-nft>
 
       <!--<a-camera position="0 0 0" look-controls="enabled: false"></a-camera>-->
