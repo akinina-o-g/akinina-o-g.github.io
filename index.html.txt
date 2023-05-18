@@ -25,5 +25,6 @@
                              <p><a href="week15/webxr-ar.html"> Домашнє завдання 15 тижня <a/>
 
           <p><a href="dz_lab.html"> Лабораторна робота <a/>
+<p><a href="week8/dzweek8_nft_AR_js.html"> Домашнє завдання 8 тижня <a/>
  </body>
  </html>
