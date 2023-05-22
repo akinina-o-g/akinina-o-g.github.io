@@ -52,13 +52,11 @@ material = "color: white; shader: flat; scr: ../HIRO.jpg"
 position= "0 0 -1" ></a-entity>
 </a-marker>
 
-<a-marker preset="pattern-bukva-f">
-<a-entity geometry = "primitive: sphere; radius: 0.5"
- light= "type: point; color: white; intensity: 2"
-material = "color: white; shader: flat; scr:'pattern-bukva-f.jpg'"
-position= "0 0 -1" ></a-entity>
-</a-marker>
- 
+
+ <a-marker type="pattern" url="../assets/pattern-bukva-f.patt" id="F" registerevents>
+								<a-sphere radius="0.10" color="magenta"></a-sphere>
+								<a-entity id="lineFA"></a-entity>
+					</a-marker>
 
  </a-marker>
 <a-marker  type='pattern' url='../assets/pattern-pi'>
