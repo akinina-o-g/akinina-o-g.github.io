@@ -29,8 +29,8 @@ window.addEventListener("DOMContentLoaded", () => {
 		'../assets/cyberpunk_car.glb',
 		// called when the resource is loaded
 		function ( gltf ) {
-			//gltf.scene.scale.set(1,1,1);
-			gltf.scene.position.z=6;
+			//gltf.scene.scale.set(0.1,0.1,0.1);
+			gltf.scene.position.z=-6;
 			gltf.scene.rotation.y=+Math.PI/4;
 			scene.add( gltf.scene );
 			//console.log(gltf);
