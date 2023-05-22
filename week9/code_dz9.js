@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	// Load a glTF resource
 	loader.load(
 		// resource URL
-		'train.glb',
+		'../assets/cyberpunk_car.glb',
 		// called when the resource is loaded
 		function ( gltf ) {
 			//gltf.scene.scale.set(0.1,0.1,0.1);
@@ -53,4 +53,3 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	animate();
 });
-
